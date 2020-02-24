@@ -6,7 +6,7 @@ SQL Querie to get data out of the SID Oracle DB then .Net app to convert old GUI
 
 1. Copy the contents of the CASE_Query_JAN_ONLY.sql file (in this folder) to a SQL Developer Worksheet
 
-2. Amend line 186 and 196 to only include the cases for specific users and line 201 to exclude cases for specific user, then run query - Ensure you select the first line (set define off) as well as the entire query before you run or it will try and use the ampersands as inputs
+2. Amend line 50 and 60 to only include the cases for specific users and line 65 to exclude cases for specific user, then run query - Ensure you select the first line (set define off) as well as the entire query before you run or it will try and use the ampersands as inputs
 
 3. This will take a bit of time due to the number of joins to the Case Additional fields table.
 
